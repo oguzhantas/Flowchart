@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dikdortgenalan"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 03:53:44 &#214;S"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMTg7MDI6NDA6MDYgw5ZTOzI3ODE="/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMTg7MDM6NTM6NDQgw5ZTOzE7Mjg5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="alan" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="alan" expression="a*b"/>
+            <output expression="alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
